@@ -1,0 +1,36 @@
+@import "Base/reset";
+@import "Helpers/variable";
+@import "Helpers/mixin";
+@import "Helpers/extend";
+
+@import "../../../components/User/Navbar/_navbar";
+@import "../../../components/User/Movie/_movie";
+@import "../../../components/User/CategoryGroupCinema/_categoryGroupCinema";
+@import "../../../components/User/CategoryGroupCinemaMobile/_categoryGroupCinemaMobile";
+@import "../../../components/User/CinemaMovies/_cinemaMovies";
+@import "../../../components/User/GroupCinema/_groupCinema";
+@import "../../../components/User/GroupCinemaMovies/_group-cinema-movies";
+@import "../../../components/User/Spinner/_spinner";
+@import "../../../components/User/HomeTool/_hometool";
+@import "../../../components/User/Loader/_loader";
+@import "../../../components/_pageNotFound";
+
+
+
+@import "../../../screens/User/homepage/Carousel/_carousel";
+@import "../../../screens/User/homepage/Footer/_footer";
+@import "../../../screens/User/homepage/ListMovie/_listMovie";
+@import "../../../screens/User/homepage/New/_new";
+@import "../../../screens/User/homepage/Cinema/_cinema";
+@import "../../../screens/User/homepage/App/_app";
+
+@import "../../../screens/User/login/_login";
+@import "../../../screens/User/sign-up/_sign-up";
+
+
+
+@import "../../../screens/User/checkout/_checkout";
+@import "../../../screens/User/checkout/_checkoutStep2";
+
+@import "../../../screens/User/detail-movie/_detail-movie";
+

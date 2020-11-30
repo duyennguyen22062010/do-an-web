@@ -1,0 +1,12 @@
+.blank {
+    @include mediaQueryMax("small") {
+      height: 80px;
+    }
+    height: 120px;
+    width: 100%;
+    background: url("/images/blank.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 940px;
+    margin: auto;
+}

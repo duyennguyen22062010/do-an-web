@@ -1,0 +1,129 @@
+.footer {
+    background-color: $black-1;
+    color: $white-0;
+    font-size: $fs-2;
+    font-weight: $fw-bold-2;
+    padding: $pd-2 0;
+
+    white-space: initial;
+
+    a {
+        display: inline-block;
+        color: $gray-7;
+        font-size: $fs-1;
+        white-space: nowrap;
+
+        &:hover {
+            color: $white-0;
+            -webkit-transition: $transition;
+            transition: $transition;
+        }
+
+        @include mediaQueryMax("small") {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+    .partner-logo {
+        height: 30px;
+        width: 30px;
+
+        // background-color: $white-0;
+        border-radius: $border-radius-1;
+        margin-right: $mg-6;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        @include mediaQueryMax("large") {
+            // height: 28px;
+            // width: 28px;
+            margin-right: $mg-1;
+        }
+
+        @include mediaQueryMax("medium") {
+            // height: 30px;
+            // width: 30px;
+            margin-right: $pd-0;
+        }
+    }
+
+    .icon-app,
+    .icon-social {
+        background: 0 0;
+        height: 30px;
+        width: auto;
+        margin: $mg-0;
+    }
+
+    .footer-row {
+        margin-bottom: -15px !important;
+    }
+
+    .hrFooter {
+        border-top: 1px solid #4a4a4a;
+    }
+
+    .vngIcon {
+        border-radius: 8px;
+        width: 80px;
+        height: auto;
+
+        @include mediaQueryMax("small") {
+            margin-left: 140px;
+            margin-bottom: $mg-2;
+        }
+    }
+
+    .infoFooter {
+        color: $white-0;
+        white-space: nowrap;
+        font-size: $fs-1;
+        text-align: left;
+        padding: 0;
+
+        margin-left: $mg-3;
+
+        .span_title {
+            display: block;
+            line-height: 1.8;
+            color: $white-0;
+            font-size: $fs-1;
+            font-weight: $fw-bold-0;
+        }
+
+        @include mediaQueryMax("medium") {
+            text-align: center;
+            white-space: initial;
+        }
+        @include mediaQueryMax("small") {
+            white-space: initial;
+            text-align: center;
+        }
+    }
+    .imgBoCo {
+        width: 130px;
+        margin-left: $mg-5;
+
+        @include mediaQueryMax("medium") {
+            margin-left: 0;
+        }
+        @include mediaQueryMax("small") {
+            margin-left: 100px;
+        }
+    }
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+}
+span {
+    display: block;
+    line-height: 1.8;
+    color: $gray-7;
+    font-size: $fs-1;
+    font-weight: $fw-bold-0;
+}
